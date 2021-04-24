@@ -17,7 +17,7 @@ int main(void)
     
 	fgets(aluno.nome, 40, stdin);      
 	printf("Disciplina ......: ");
-	
+	fflush(stdin);
 	fgets(aluno.disciplina, 40, stdin);      
 	printf("Informe a 1a. nota ..: ");      
 	scanf("%f", &aluno.nota_prova1);      

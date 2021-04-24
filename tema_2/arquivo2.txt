@@ -1,0 +1,1 @@
+fopen exemplo - Neste cado podemos inserir diretamente pelo código o que queremos inserir no arquivo
