@@ -28,11 +28,12 @@ int main(){
 		printf("Todos os 20 numeros alocados \n");
 		for (i=0;i<20;i++){  //neste trecho começa do começo e vai até o final do tamanho do ponteiro
 			printf("%d-%d\n",i,p[i]); //agora queremos printar tudo de uma só vez, o valores que jap foram alocados
-		free(p);  //liberando o ponteiro
+		
 		}
-		system("pause");
-		return(0);
+		free(p);  //liberando o ponteiro
+		
 	}
-	
+	system("pause");
+	return(0);
 }
 
